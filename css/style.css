@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'Avenir Next Condensed';
+  font-stretch: condensed;
   src: url('https://s3.amazonaws.com/learn-verified/Avenir+Next+Condensed.ttc');
 }
 
@@ -26,16 +27,16 @@ body {
 }
 
 h1 {
-  font-size: 12.25em;
+  font-size: 12.0em;
   line-height: 1em;
-  letter-spacing: .03em;
+  letter-spacing: .01em;
   margin-bottom: 2px;
 }
 
 h2 {
-  font-size: 5.1em;
+  font-size: 4.0em;
   line-height: 1em;
-  letter-spacing: .03em;
+  letter-spacing: .02em;
   margin-bottom: 2px;
 }
 
@@ -48,22 +49,22 @@ h3 {
 
 h4 {
   font-weight: normal;
-  font-size: .7em;
-  letter-spacing: .4em;
+  font-size: .55em;
+  letter-spacing: .5em;
   margin-bottom: 9px;
   line-height: 1em;
 }
 
 p {
-  font-size: .9em;
+  font-size: .7em;
   line-height: 1.8em;
-  letter-spacing: .103em;
+  letter-spacing: .10em;
   margin-bottom: 15px;
 }
 
 span {
   display: inline-block;
-  font-size: 1em;
+  font-size: .8em;
   line-height: 1em;
   letter-spacing: .35em;
   vertical-align: top;
